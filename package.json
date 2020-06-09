@@ -1,0 +1,14 @@
+{
+  "name": "@chec/eslint-config",
+  "version": "0.0.0",
+  "description": "Shared eslint config settings for Chec projects",
+  "main": "index.js",
+  "repository": "https://github.com/chec/eslint-config",
+  "author": "Chec Platform Ltd",
+  "license": "MIT",
+  "dependencies": {
+    "@vue/eslint-config-airbnb": "^5.0.2",
+    "eslint": "^7.2.0",
+    "eslint-plugin-vue": "^7.0.0-alpha.6"
+  }
+}
