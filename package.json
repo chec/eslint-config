@@ -1,16 +1,18 @@
 {
   "name": "@chec/eslint-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Shared eslint config settings for Chec projects",
   "main": "index.js",
   "repository": "https://github.com/chec/eslint-config",
   "author": "Chec Platform Ltd",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "@vue/eslint-config-airbnb": "^5.0.2"
+    "@vue/eslint-config-airbnb": "^5.3.0"
   },
   "peerDependencies": {
-    "eslint": "^7.2.0",
-    "eslint-plugin-vue": "^7.0.0-alpha.6"
+    "@vue/cli-service": "^3.0.0 || ^4.0.0-0 || ^5.0.0-0",
+    "eslint": "^5.16.0 || ^6.1.0 || ^7.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-vue": "^7.18"
   }
 }
